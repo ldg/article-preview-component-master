@@ -139,7 +139,6 @@ body {
 		}
 		#share-container {
 			position: relative;
-			background-color: var(--grey900);
 		}
 		.share-links {
 			position: absolute;
@@ -170,7 +169,7 @@ body {
 					&::after {
 						content: '';
 						position: absolute;
-						bottom: -12px;
+						bottom: -11px;
 						width: 0px;
 						height: 0px;
 						border-style: solid;
