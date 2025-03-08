@@ -1,0 +1,42 @@
+@use 'sass:map';
+
+$text-presets: (
+	'heading': (
+		color: var(--grey900),
+		font-size: 1.25rem,
+		font-weight: 700,
+		line-height: 1.3,
+		letter-spacing: 0.25px,
+	),
+	'intro': (
+		color: var(--grey500),
+		font-size: 0.8125rem,
+		font-weight: 500,
+		line-height: 1.4,
+		letter-spacing: 0.12px,
+	),
+	'profile': (
+		color: var(--grey900),
+		font-size: 0.8125rem,
+		font-weight: 700,
+		line-height: 1.4,
+		letter-spacing: 0.12px,
+	),
+	'date': (
+		color: var(--grey400),
+		font-size: 0.8125rem,
+		font-weight: 500,
+		line-height: 1.4,
+		letter-spacing: 0.12px,
+	),
+);
+
+@mixin text-presets {
+	@each $preset, $styles in $text-presets {
+		.#{$preset} {
+			@each $property, $value in $styles {
+				#{$property}: $value;
+			}
+		}
+	}
+}
