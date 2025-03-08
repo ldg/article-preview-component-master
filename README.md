@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- View Code: [Add solution URL here](https://github.com/ldg/article-preview-component-master)
-- Live Site: [Add live site URL here](https://ldg.github.io/article-preview-component-master/)
+- View Code: [Github](https://github.com/ldg/article-preview-component-master)
+- Live Site: [Github Pages](https://ldg.github.io/article-preview-component-master/)
 
 ## My process
 
